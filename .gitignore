@@ -2,3 +2,4 @@ node_modules
 Vistas/
 database
 git/
+.env
