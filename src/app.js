@@ -16,7 +16,7 @@ const app = express();
 require('./lib/passport');
 
 // SETTINGS
-app.set('port', process.env.PORT || 4000); // CREA LA VARIABLE PARA PUERTOS
+app.set('port', process.env.PORT); // CREA LA VARIABLE PARA PUERTOS
 app.set('views', path.join(__dirname, 'views')); // DONDE SE ENCUENTRA LA CARPETA VIEWS 
 app.engine('.hbs', hbs({    // CONFIGURA EL MOTOR DE HANDLEBARS
     defaultLayout: "main",
